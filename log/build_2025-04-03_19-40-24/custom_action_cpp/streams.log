@@ -1,0 +1,71 @@
+[0.009s] Invoking command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emin/ros2_ws/src/custom_action_cpp -DCMAKE_INSTALL_PREFIX=/home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.437s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.526s] -- Found custom_action_interfaces: 0.0.0 (/home/emin/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake)
+[0.560s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.685s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.729s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.731s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.812s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.834s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.903s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.915s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.951s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.048s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/emin/ros2_ws/src/custom_action_cpp/include>
+[1.048s] -- Configured cppcheck exclude dirs and/or files: 
+[1.050s] -- Added test 'lint_cmake' to check CMake code style
+[1.053s] -- Added test 'uncrustify' to check C / C++ code style
+[1.054s] -- Configured uncrustify additional arguments: 
+[1.054s] -- Added test 'xmllint' to check XML markup files
+[1.056s] -- Configuring done (1.0s)
+[1.069s] -- Generating done (0.0s)
+[1.074s] -- Build files have been written to: /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp
+[1.084s] Invoked command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emin/ros2_ws/src/custom_action_cpp -DCMAKE_INSTALL_PREFIX=/home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp
+[1.084s] Invoking command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp -- -j3 -l3
+[1.131s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[1.131s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[4.122s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[4.246s] [ 75%] Built target fibonacci_action_server
+[5.074s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[5.207s] [100%] Built target action_server
+[5.218s] Invoked command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp -- -j3 -l3
+[5.226s] Invoking command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp
+[5.233s] -- Install configuration: ""
+[5.234s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_server
+[5.234s] -- Set non-toolchain portion of runtime path of "/home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_server" to ""
+[5.234s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/lib/libaction_server.so
+[5.235s] -- Set non-toolchain portion of runtime path of "/home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/lib/libaction_server.so" to ""
+[5.235s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/ament_index/resource_index/package_run_dependencies/custom_action_cpp
+[5.235s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/ament_index/resource_index/parent_prefix_path/custom_action_cpp
+[5.235s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/environment/ament_prefix_path.sh
+[5.235s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/environment/ament_prefix_path.dsv
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/environment/path.sh
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/environment/path.dsv
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/local_setup.bash
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/local_setup.sh
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/local_setup.zsh
+[5.236s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/local_setup.dsv
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/package.dsv
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/ament_index/resource_index/packages/custom_action_cpp
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/ament_index/resource_index/rclcpp_components/custom_action_cpp
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/cmake/custom_action_cppConfig.cmake
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/cmake/custom_action_cppConfig-version.cmake
+[5.237s] -- Installing: /home/emin/ros2_ws/src/custom_action_cpp/install/custom_action_cpp/share/custom_action_cpp/package.xml
+[5.239s] Invoked command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp

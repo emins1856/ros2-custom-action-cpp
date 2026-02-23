@@ -1,0 +1,21 @@
+[0.014s] Invoking command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp -- -j3 -l3
+[0.156s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.657s] Traceback (most recent call last):
+[2.657s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[2.657s]     from ament_package.templates import get_environment_hook_template_path
+[2.657s] ModuleNotFoundError: No module named 'ament_package'
+[2.692s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.692s]   execute_process(/usr/bin/python3
+[2.692s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.692s]   /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp/ament_cmake_package_templates/templates.cmake)
+[2.692s]   returned error code 1
+[2.692s] Call Stack (most recent call first):
+[2.692s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.692s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.693s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.693s]   CMakeLists.txt:9 (find_package)
+[2.693s] 
+[2.693s] [0m
+[2.693s] -- Configuring incomplete, errors occurred!
+[2.699s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[2.700s] Invoked command in '/home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emin/ros2_ws/src/custom_action_cpp/build/custom_action_cpp -- -j3 -l3
